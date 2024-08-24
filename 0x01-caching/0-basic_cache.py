@@ -5,6 +5,7 @@ Basic dictionary
 
 BaseCaching = __import__('base_caching').BaseCaching
 
+
 class BasicCaching(BaseCaching):
     """
     Class that inherits from BaseCaching and is a caching system
@@ -15,6 +16,7 @@ class BasicCaching(BaseCaching):
         """
         if key or item is not None:
             self.cache_data[key] = item
+
     def get(self, key):
         """
         Function that return the value in self.cache_data based on key
