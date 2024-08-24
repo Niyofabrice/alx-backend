@@ -14,7 +14,9 @@ class BasicCache(BaseCaching):
         """
         Function that assings items to the dictionary
         """
-        if key or item is not None:
+        if key or item is None:
+            return
+        else:
             self.cache_data[key] = item
 
     def get(self, key):
