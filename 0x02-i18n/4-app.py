@@ -25,7 +25,7 @@ def home():
     """
     home method
     """
-    return render_template('3-index.html')
+    return render_template('4-index.html')
 
 @babel.localeselector
 def get_locale():
