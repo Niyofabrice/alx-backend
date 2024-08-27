@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Mock logging in
+Use user locale
 """
 
 from flask import Flask, render_template, request, g
