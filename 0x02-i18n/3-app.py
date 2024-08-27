@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Get locale from request
+Parametrize templates
 """
 
 from flask import Flask, render_template, request
@@ -25,7 +25,7 @@ def home():
     """
     home method
     """
-    return render_template('2-index.html')
+    return render_template('3-index.html')
 
 @babel.localeselector
 def get_locale():
